@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&family=Bellefair&family=Kumbh+Sans:wght@200;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+#buttons
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#divtab
+{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+#table
+{
+    border-collapse: collapse;
+}
+#table tr,td,th
+{
+    border: 1px solid;
+    text-align: center;
+}
+.checkbtn
+{
+    width: 40px;
+    height: 50px;
+
+}
+.prova
+{
+    width: 20%;
+}
+
+#btnexcel
+{
+    height: 40px;
+    width: 215px;
+    background-color: #76b576;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-right: 5%;
+}
+#mancanti
+{
+    font-size: 25px;
+    margin-left: 2%;
+}
+.checkcarte
+{
+    width: 50px;
+    height: 50px;
+}
+#divmancanti
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
